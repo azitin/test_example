@@ -3,6 +3,7 @@ data work.test;
 	y=2;
 	z=3;
 	a=0;
+	b='a';
 run;
 
 proc print data=work.test;
